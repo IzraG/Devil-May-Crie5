@@ -28,6 +28,7 @@ body{
 .dropdown {
   float: right;
   overflow: hidden;
+ 
 }
 
 /* Dropdown button */
@@ -64,7 +65,7 @@ body{
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  text-align: left;
+  text-align: right;
 }
 
 /* Add a grey background color to dropdown links on hover */
@@ -74,5 +75,8 @@ body{
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
+    left:auto;
+    right:0;
+    margin-right:-10px;
 }
