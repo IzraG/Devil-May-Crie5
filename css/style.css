@@ -1,82 +1,260 @@
+
+@import url('http://fonts.cdnfonts.com/css/lohengrin');
+@import url('http://fonts.cdnfonts.com/css/aller');
+                
+
 /* Navbar container */
 body{
-    margin:0;
+  margin:0;
 }
 
 .navbar {
-  /* overflow: hidden; */
-  background-color: #333;
-  font-family: Arial;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
- 
+/* overflow: hidden; */
+
+font-family: Arial;
+position: fixed; /* Set the navbar to fixed position */
+top: 0; /* Position the navbar at the top of the page */
+width: 100%; /* Full width */
+background-color: rgba(8, 40, 73, 0.5)
+;
+
 }
 
 /* Links inside the navbar */
 .navbar a {
-  float: left;
-  margin-left: -10px;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+float: left;
+margin-left: -10px;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+
 }
+
+.navbar a img{
+  height: 50px;
+}
+
 
 /* The dropdown container */
 .dropdown {
-  float: right;
-  overflow: hidden;
- 
+float: right;
+overflow: hidden;
+
+}
+
+.dropdown .dropbtn img{
+  height: 50px;
 }
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+font-size: 16px;
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit; /* Important for vertical align on mobile phones */
+margin: 0; /* Important for vertical align on mobile phones */
 }
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+background-color: rgb(0, 53, 102);
 }
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: right;
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: right;
 }
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd;
+background-color: #ddd;
 }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-    display: block;
-    left:auto;
-    right:0;
-    margin-right:-10px;
+  display: block;
+  left:auto;
+  right:0;
+  margin-right:-10px;
 }
+
+
+.slider{
+    background-image: url("/assets/Banner1Logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+}
+
+.slider button{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left:49%;
+}
+  
+  
+
+
+
+/* =========================================== CHARACTERS CSS =========================================*/
+
+.characters{
+    background-color: black;
+
+}
+
+.characters .dante{
+    background-image: url("/assets/Dante.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+}
+
+.characters .dante img{
+    margin-left: 10%;
+    margin-right: -10px;
+}
+.characters .dante hr{
+    width:50%;
+}
+.characters .v{
+    background-image: url("/assets/V.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+}
+.characters .v img{
+    margin-left: 10%;
+    margin-right: 20px;
+}
+.characters .v hr{
+    width:50%;
+}
+.characters .nero{
+    background-image: url("/assets/Nero.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+}
+.characters .nero img{
+
+    margin-left: 10%;
+    margin-right: -20px;
+}
+.characters .nero hr{
+    width:50%;
+}
+.characters .vergil{
+    background-image: url("/assets/Vergil.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+}
+.characters .vergil img{
+
+    margin-left: 10%;
+    margin-right: -50px;
+}
+.characters .vergil hr{
+    width:50%;
+}
+.characters .lady{
+    background-image: url("/assets/Lady.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+}
+.characters .lady img{
+
+    margin-left: 10%;
+}
+.characters .lady hr{
+    width:50%;
+}
+.characters .kyrie{
+    background-image: url("/assets/Kyrie.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+}
+.characters .kyrie img{
+
+    margin-left: 10%;
+    margin-right: 4%;
+}
+.characters .kyrie hr{
+    width:50%;
+}
+
+.header{
+    font-size: 120px;
+    padding-top: 10%;
+    padding-left:30% ;
+    color: red;
+    font-family: 'Lohengrin', sans-serif;
+                                                
+}
+.contents{
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5%;
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+
+
+/* =========================================== CHARACTERS CSS =========================================*/
+
+
+
+
+/* =========================================== REGISTER CSS =========================================*/
+
+.register{
+    background-image: url("/assets/Register\ Background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+}
+.register header{
+    width: 100%;
+    text-align: center;
+
+    
+
+}
+
+
+/* =========================================== REGISTER CSS =========================================*/
