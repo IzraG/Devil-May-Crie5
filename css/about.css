@@ -1,0 +1,44 @@
+@import url('http://fonts.cdnfonts.com/css/lohengrin%22');
+@import url('http://fonts.cdnfonts.com/css/aller%22');
+* {
+  font-family: Lohengrin, serif;
+}
+
+.aboutpage {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(../assets/aboutBG.png);
+  background-size: 100% 100vh;
+  font-family: Arial, serif;
+  color: white;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-position: left top;
+  position: absolute;
+}
+
+.container {
+  text-align: center;
+}
+
+p {
+  margin-right: 20vw;
+  margin-left: 20vw;
+  padding-bottom: 2em;
+  text-align: justify;
+  font-size: 30px;
+  font-family: 'Aller Display', sans-serif;
+}
+
+.aboutheader {
+  margin-top: 20vh;
+}
+
+h1 {
+  font-size: 4em;
+}
+

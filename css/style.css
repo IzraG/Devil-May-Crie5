@@ -1,3 +1,4 @@
+
 @import url('http://fonts.cdnfonts.com/css/lohengrin');
 @import url('http://fonts.cdnfonts.com/css/aller');
                 
@@ -95,6 +96,7 @@ background-color: #ddd;
   left:auto;
   right:0;
   margin-right:-10px;
+  font-family: 'Lohengrin', sans-serif;
 }
 
 
@@ -173,7 +175,7 @@ background-color: #ddd;
 }
 
 .footer {
-  
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -183,25 +185,264 @@ background-color: #ddd;
   }
 
   .page2{
-    background-image: url("/assets/Index2.png");
+    background-image: url("/assets/BG2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 975px;
     width: 100%;
 }
+
+.about{
+    font-family: 'Lohengrin', sans-serif;
+    color: white;
+    font-size: 95px;
+    width: 100%;
+    text-align: center;
+    padding-top: 1.2px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+
+}
+
+.about p{
+    margin:0px;
+    padding-top: 90px;
+}
+
+.desc p{
+    margin-top: 40px;
+    padding-left: 20px;
+    font-size: 55px;
+    padding-top: 6px;
+    
+}
+
+.desc{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 60px;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 120px;
+
+
+}
+
+.page3{
+    background-image: url("/assets/BG3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 975px;
+    width: 100%;
+}
+
+.Characters{
+    font-family: 'Lohengrin', sans-serif;
+    color: white;
+    font-size: 90px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.Characters p{
+    margin:0px;
+    padding-top: 40px;
+}
+
+.dante-img img{
+    padding: 0px;
+    vertical-align: top;
+    display: inline-block;
+    margin:0px;
+    
+}
+
+.dante-img{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
   
+}
+
+.dante{
+    font-family: 'Lohengrin', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 460px;
+
+}
+
+.dante p{
+    color:rgb(191, 0, 0);
+    margin-left: 0px;
+    text-align: left;
+    display: inline-block;
+    
+}
+
+.dante p2{
+    color: white;
+    display:inline-block;
+}
+
+.desc2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 55px;
+    margin-left: 0px;
+    display: inline-block;
+    padding-right: 15%;
+    float: right;
+
+}
+
+.desc2 p{
+    margin-right: 0px;
+    padding-right: 0px;
+    line-height: 70px;
+    display: inline-block;
+    margin: 0px;
+
+    
+   
+}
+
+.page4{
+    background-image: url("/assets/Index4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 975px;
+    width: 100%;
+}
+
+.system{
+    font-family: 'Lohengrin', sans-serif;
+    color: white;
+    font-size: 90px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.system p{
+    margin:0px;
+    padding-top: 40px;
+}
+
+.auto p{
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-left: 20px;
+    font-size: 60px;
+    padding-top: 6px;
+    
+}
+
+.auto{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+    margin-top: 0px;
+    padding-left: 120px;
+
+
+}
+.desc3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 50px;
+    padding-top: 5%;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding-left: 120px;
+
+
+}
+
+
+
+.page5{
+    background-image: url("/assets/Index5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 975px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.page5 .container{
+    margin-left: 15%;
+    width: 1366px;
+    height: 768px;
+    display: flex;
+    justify-content: center;
+    /*  box-shadow is from materialize css's website */
+    box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14),
+        0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+}
+.page5 .container img {
+    width: 100%;
+    z-index: -2;
+}
+.page5 button {
+    height: 10%;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    padding: 1em;
+    display: flex;
+}
+
+.page5 button .arrow {
+    border: solid #fff;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 10px;
+    transition: transform 0.3s ease-out;
+    outline: none;
+}
+
+#right-btn {
+    margin: auto 0 auto -2em;
+}
+
+#right-btn .arrow {
+    transform: rotate(-45deg);
+}
+
+#left-btn {
+    z-index: 0;
+    margin: auto -2em auto 0;
+}
+
+#left-btn .arrow {
+    transform: rotate(135deg);
+}
+
 
 
 
 /* =========================================== CHARACTERS CSS =========================================*/
 
-.characters{
+.character{
     background-color: black;
 
 }
 
-.characters .dante{
+.character .dantes{
     background-image: url("/assets/Dante.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -209,84 +450,84 @@ background-color: #ddd;
     height: 1000px;
 }
 
-.characters .dante img{
+.character .dantes img{
     margin-left: 10%;
     margin-right: -10px;
 }
-.characters .dante hr{
+.character .dantes hr{
     width:50%;
 }
-.characters .v{
+.character .v{
     background-image: url("/assets/V.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 1000px;
 }
-.characters .v img{
+.character .v img{
     margin-left: 10%;
     margin-right: 20px;
 }
-.characters .v hr{
+.character .v hr{
     width:50%;
 }
-.characters .nero{
+.character .nero{
     background-image: url("/assets/Nero.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 1000px;
 }
-.characters .nero img{
+.character .nero img{
 
     margin-left: 10%;
     margin-right: -20px;
 }
-.characters .nero hr{
+.character .nero hr{
     width:50%;
 }
-.characters .vergil{
+.character .vergil{
     background-image: url("/assets/Vergil.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 1000px;
 }
-.characters .vergil img{
+.character .vergil img{
 
     margin-left: 10%;
     margin-right: -50px;
 }
-.characters .vergil hr{
+.character .vergil hr{
     width:50%;
 }
-.characters .lady{
+.character .lady{
     background-image: url("/assets/Lady.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 1000px;
 }
-.characters .lady img{
+.character .lady img{
 
     margin-left: 10%;
 }
-.characters .lady hr{
+.character .lady hr{
     width:50%;
 }
-.characters .kyrie{
+.character .kyrie{
     background-image: url("/assets/Kyrie.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 1000px;
 }
-.characters .kyrie img{
+.character .kyrie img{
 
     margin-left: 10%;
     margin-right: 4%;
 }
-.characters .kyrie hr{
+.character .kyrie hr{
     width:50%;
 }
 
@@ -479,24 +720,24 @@ background-color: #ddd;
 }
 
 .shapecontent{
+    color: white;
+    font-family: 'Aller Display', sans-serif;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
 
+}
 
+.shapecontent h1{
+    color: lightgray;
+    display: inline;
+    font-size: 35px;
 }
 
 
 /* =========================================== REQUIREMENTS CSS =========================================*/
 
 
-
-/* =========================================== ABOUT CSS =========================================*/
-
-.aboutpage{
-    background-image: url("/assets/AboutBG.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 1000px;
-}
-/* =========================================== ABOUT CSS =========================================*/
 
 
