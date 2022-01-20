@@ -1,11 +1,11 @@
 function validateForm() {
-    let name = document.forms["register"]["fullname"].value;
-    let pass = document.forms["register"]["password"].value;
-    let email = document.forms["register"]["email"].value;
-    let terms = document.forms["register"]["terms"].checked;
-    
-    if (name == "") {
-      alert("Name must be filled out");
+    let name = document.getElementById("fullname").value;
+    let pass = document.getElementById("password").value;
+    let email = document.getElementById("email").value;
+    let terms = document.getElementById("terms").checked;
+   
+    if (name.length <5) {
+      alert("Name length must be more than 4");
       return false;
     }
     if (pass.length <9){
@@ -20,8 +20,9 @@ function validateForm() {
         alert("Email must be filled out");
         return false;
       } 
-      if (terms == "false") {
+    if (terms == false) {
         alert("You must accept terms & conditions");
         return false;
-      } 
+    } 
   }
+

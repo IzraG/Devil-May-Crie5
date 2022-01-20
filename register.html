@@ -43,23 +43,36 @@
             <div class="registerforms">
 
                 <div class="main">  	
-                    
+                    <label for="chk" aria-hidden="true">Register</label>
             
                         <div class="signup">
-                            <form onsubmit="return validateForm()" method="post" name="register">
-                                <label for="chk" aria-hidden="true">Sign up</label>
-                                <input type="text" name="fullname" placeholder="User name" required="" >
-                                <legend>Choose your gender:</legend>
-                                <label for="male">Male</label>
-                                <input type="radio" name="gender" id="male" value="male" checked>
-                                <label for="female">Female</label>
-                                <input type="radio" name="gender" id="female" value="female">
-                                <input type="email" name="email" placeholder="Email" required="">
-                                <input type="password" name="password" placeholder="Password" required="">
+                            <form onsubmit="return validateForm()"  name="register" id="register">
+                                <input type="text" name="fullname" placeholder="User name" required="" id="fullname" >
+                                <div class="genderheader">
+                                    <legend>Choose your gender:</legend>
+                                </div>
+                                <div class="gender">
+                                    <label for="male">Male</label>
+                                    <input type="radio" name="gender" id="male" value="male" checked>
+                                </div>
+                                <div class="gender">
+                                    <label for="female">Female</label>
+                                    <input type="radio" name="gender" id="female" value="female">
+
+                                </div>
+                                 
+                                <input type="email" name="email" placeholder="Email" required=""id="email">
+                                <input type="password" name="password" placeholder="Password" required="" id="password">
                                 <input type="address" name="address" placeholder="Address" required="">
-                                <label for="terms">Do you accept terms & conditions?</label>
-                                <input type="checkbox" id="terms"name="terms" aria-hidden="true">
+                                <div class="terms">
+                                    <label for="terms">Do you accept terms & conditions?</label>
+                                    <input type="checkbox" id="terms"name="terms" aria-hidden="true">
+                                </div>
+                                
                                 <button type="submit" value="Submit">Sign up</button>
+                                <div class="space">
+
+                                </div>
                             </form>
                         </div>
                 </div>
